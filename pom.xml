@@ -282,6 +282,7 @@
     <jasperreports.version>3.5.1</jasperreports.version>
     <selenium.version>2.46.0</selenium.version>
     <io.spring.platform.version>Brussels-SR3</io.spring.platform.version>
+    <org.mybatis.version>3.4.5-SNAPSHOT</org.mybatis.version>
     <!-- == Project Properties == -->
     <encoding>UTF-8</encoding>
     <java-version>1.8</java-version>
