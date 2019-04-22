@@ -17,6 +17,7 @@ install:
   - cd terasolunaorg/terasoluna-gfw
   - sh ./mvn-build-all.sh install -Dmaven.test.skip=true -Dmaven.javadoc.skip=true -Dsource.skip=true
   - popd
+  - mvn install:install-file -Dfile=lib/iTextAsian-2.1.7.jar -DgroupId=com.lowagie -DartifactId=iTextAsian -Dversion=2.1.7 -Dpackaging=jar
 
 before_script:
   - psql -c 'create database tourreserve;' -U postgres
